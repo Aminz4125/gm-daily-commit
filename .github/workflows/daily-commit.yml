@@ -17,6 +17,15 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Random delay
+        if: github.event_name == 'schedule'
+        run: |
+          # Sleep a random amount between 0 and 90 minutes so the
+          # actual commit time isn't identical every day.
+          DELAY=$(( RANDOM % 5400 ))
+          echo "Sleeping for $DELAY seconds"
+          sleep "$DELAY"
+
       - name: Pick next message and update log
         run: |
           # Read current index (defaults to 0 on first run)
