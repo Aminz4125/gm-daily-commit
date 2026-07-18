@@ -1,50 +1,65 @@
-Add viem client setup for Base testnet
-fix: gas estimation edge case
-Update daily progress notes
-Refactor USDC transfer helper
-Add notes on Circle Wallets integration
-wip: exploring AI agent payment flow
-Small cleanup in utils.js
-Add draft notes for token creation research
-fix typo in README
-Update contract ABI reference
-Add notes on guild.xyz role sync
-chore: bump dependencies
-Add snippet for Base RPC connection
-Daily log: reviewed Arc bootcamp material
-Add helper for signing typed data
-fix: nonce handling bug
-Add notes comparing L2 gas fees
-wip: testing stablecoin transfer script
-Update .gitignore
-Add draft for o1.exchange interaction script
-Add notes on Base ecosystem grants
-refactor: simplify wallet connect logic
-Add short summary of viem docs
-fix: incorrect chain ID config
-Daily log: content ideas for tomorrow
-Add notes on smart contract verification
-chore: clean up unused imports
-Add draft script for token balance check
-Update notes on ambassador program research
-fix: env variable loading issue
-Add notes comparing Base vs other L2s
-wip: exploring paymaster setup
-Add short writeup on ERC-20 approvals
-Daily log: reviewed Irys content plan
-fix: build error in dev environment
-Add notes on Base Discord roles
-refactor: extract config into separate file
-Add draft notes for next video script
-Update README with setup steps
-fix: incorrect decimal handling in transfer
-Add notes on Circle API rate limits
-wip: testing Base Sepolia deployment
-Daily log: planning next week's content
-Add short notes on account abstraction
-fix: missing await in async function
-Add draft comparison of wallet providers
-Update notes on B20 token research
-chore: format code with prettier
-Add notes on Base mainnet gas trends
-Daily log: wrapped up week's research
+Add viem client config for Base Sepolia
+fix: handle insufficient balance error
+Update research notes on Base grants program
+Refactor transaction signing helper
+Add draft notes on Circle Wallets SDK
+wip: prototype AI agent payment flow
+Clean up unused variables in config
+Draft outline for token launch checklist
+Fix broken link in README
+Update ABI reference for USDC contract
+Add notes on guild.xyz role verification
+chore: upgrade viem to latest version
+Add snippet for connecting to Base RPC
+Log: reviewed Encode Club bootcamp slides
+Add helper function for typed data signing
+fix: off-by-one in nonce counter
+Compare gas costs across L2 rollups
+wip: draft script for stablecoin swap
+Update .gitignore for build artifacts
+Prototype interaction script for o1.exchange
+Summarize Base ecosystem grant categories
+refactor: consolidate wallet connect logic
+Add quick reference for viem actions
+fix: wrong chain ID in test config
+Log: brainstorm content ideas for X posts
+Add notes on verifying contracts on Basescan
+chore: remove dead code paths
+Draft script to check token balances
+Update research on ambassador programs
+fix: missing .env variable check
+Notes comparing Base and Arbitrum fees
+wip: testing paymaster configuration
+Short writeup on ERC-20 approval flow
+Log: reviewed Irys ambassador content plan
+fix: local dev build failure
+Add notes on Base Discord role sync
+refactor: move config into separate module
+Draft notes for next Shorts video script
+Update setup instructions in README
+fix: decimal precision bug in transfer
+Notes on Circle API request limits
+wip: deploy test to Base Sepolia
+Log: planning next week's posting schedule
+Short notes on account abstraction basics
+fix: missing await in async call
+Compare wallet provider integrations
+Update research on B20 token mechanics
+chore: apply prettier formatting
+Notes on Base mainnet gas trends
+Log: wrapped up weekly research summary
+Add draft notes on smart contract audits
+fix: incorrect event listener cleanup
+Update comparison of L2 bridging options
+wip: testing multi-call batching
+Short notes on gas optimization tricks
+Log: reviewed viem docs for actions API
+Add notes on wallet UX best practices
+fix: race condition in async fetch
+Draft notes on token vesting schedules
+Update research on DeFi grant programs
+chore: tidy up project structure
+Notes on cross-chain messaging basics
+wip: exploring session key patterns
+Log: recap of this month's Base activity
+Add notes on onchain reputation systems
