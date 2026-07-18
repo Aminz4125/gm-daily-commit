@@ -1,0 +1,50 @@
+Add viem client setup for Base testnet
+fix: gas estimation edge case
+Update daily progress notes
+Refactor USDC transfer helper
+Add notes on Circle Wallets integration
+wip: exploring AI agent payment flow
+Small cleanup in utils.js
+Add draft notes for token creation research
+fix typo in README
+Update contract ABI reference
+Add notes on guild.xyz role sync
+chore: bump dependencies
+Add snippet for Base RPC connection
+Daily log: reviewed Arc bootcamp material
+Add helper for signing typed data
+fix: nonce handling bug
+Add notes comparing L2 gas fees
+wip: testing stablecoin transfer script
+Update .gitignore
+Add draft for o1.exchange interaction script
+Add notes on Base ecosystem grants
+refactor: simplify wallet connect logic
+Add short summary of viem docs
+fix: incorrect chain ID config
+Daily log: content ideas for tomorrow
+Add notes on smart contract verification
+chore: clean up unused imports
+Add draft script for token balance check
+Update notes on ambassador program research
+fix: env variable loading issue
+Add notes comparing Base vs other L2s
+wip: exploring paymaster setup
+Add short writeup on ERC-20 approvals
+Daily log: reviewed Irys content plan
+fix: build error in dev environment
+Add notes on Base Discord roles
+refactor: extract config into separate file
+Add draft notes for next video script
+Update README with setup steps
+fix: incorrect decimal handling in transfer
+Add notes on Circle API rate limits
+wip: testing Base Sepolia deployment
+Daily log: planning next week's content
+Add short notes on account abstraction
+fix: missing await in async function
+Add draft comparison of wallet providers
+Update notes on B20 token research
+chore: format code with prettier
+Add notes on Base mainnet gas trends
+Daily log: wrapped up week's research
