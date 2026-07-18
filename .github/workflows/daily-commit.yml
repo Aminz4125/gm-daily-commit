@@ -1,0 +1,46 @@
+name: Daily Commit
+
+on:
+  schedule:
+    # Runs twice a day (UTC): 06:00 and 15:00
+    - cron: '0 6 * * *'
+    - cron: '0 15 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Pick next message and update log
+        run: |
+          # Read current index (defaults to 0 on first run)
+          if [ -f .github/index.txt ]; then
+            INDEX=$(cat .github/index.txt)
+          else
+            INDEX=0
+          fi
+
+          TOTAL=$(wc -l < messages.txt)
+          LINE=$(( (INDEX % TOTAL) + 1 ))
+          MSG=$(sed -n "${LINE}p" messages.txt)
+
+          echo "- $(date -u +'%Y-%m-%d %H:%M UTC'): $MSG" >> log.md
+
+          NEXT=$((INDEX + 1))
+          echo "$NEXT" > .github/index.txt
+
+          echo "COMMIT_MSG=$MSG" >> "$GITHUB_ENV"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add log.md .github/index.txt
+          git commit -m "$COMMIT_MSG"
+          git push
