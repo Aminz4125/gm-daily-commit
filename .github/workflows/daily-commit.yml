@@ -17,8 +17,19 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Stop after 30-day window
+        run: |
+          END_DATE="2026-08-17"
+          TODAY=$(date -u +%Y-%m-%d)
+          if [[ "$TODAY" > "$END_DATE" ]]; then
+            echo "30-day window is over. Skipping commit."
+            echo "SKIP=true" >> "$GITHUB_ENV"
+          else
+            echo "SKIP=false" >> "$GITHUB_ENV"
+          fi
+
       - name: Random delay
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' && env.SKIP == 'false'
         run: |
           # Sleep a random amount between 0 and 90 minutes so the
           # actual commit time isn't identical every day.
@@ -27,6 +38,7 @@ jobs:
           sleep "$DELAY"
 
       - name: Pick next message and update log
+        if: env.SKIP == 'false'
         run: |
           # Read current index (defaults to 0 on first run)
           if [ -f .github/index.txt ]; then
@@ -47,6 +59,7 @@ jobs:
           echo "COMMIT_MSG=$MSG" >> "$GITHUB_ENV"
 
       - name: Commit and push
+        if: env.SKIP == 'false'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
