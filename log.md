@@ -3,3 +3,4 @@
 - 2026-07-19 12:24 UTC: Add viem client config for Base Sepolia
 - 2026-07-19 18:12 UTC: fix: handle insufficient balance error
 - 2026-07-20 14:16 UTC: Update research notes on Base grants program
+- 2026-07-20 20:18 UTC: Refactor transaction signing helper
