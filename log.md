@@ -4,3 +4,4 @@
 - 2026-07-19 18:12 UTC: fix: handle insufficient balance error
 - 2026-07-20 14:16 UTC: Update research notes on Base grants program
 - 2026-07-20 20:18 UTC: Refactor transaction signing helper
+- 2026-07-21 12:16 UTC: Add draft notes on Circle Wallets SDK
