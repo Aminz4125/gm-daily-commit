@@ -6,3 +6,4 @@
 - 2026-07-20 20:18 UTC: Refactor transaction signing helper
 - 2026-07-21 12:16 UTC: Add draft notes on Circle Wallets SDK
 - 2026-07-21 19:48 UTC: wip: prototype AI agent payment flow
+- 2026-07-22 13:10 UTC: Clean up unused variables in config
