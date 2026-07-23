@@ -8,3 +8,4 @@
 - 2026-07-21 19:48 UTC: wip: prototype AI agent payment flow
 - 2026-07-22 13:10 UTC: Clean up unused variables in config
 - 2026-07-22 18:50 UTC: Draft outline for token launch checklist
+- 2026-07-23 13:10 UTC: Fix broken link in README
