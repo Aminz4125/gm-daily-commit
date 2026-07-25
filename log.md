@@ -12,3 +12,4 @@
 - 2026-07-23 20:19 UTC: Update ABI reference for USDC contract
 - 2026-07-24 08:25 UTC: Add notes on guild.xyz role verification
 - 2026-07-24 16:44 UTC: chore: upgrade viem to latest version
+- 2026-07-25 09:01 UTC: Add snippet for connecting to Base RPC
