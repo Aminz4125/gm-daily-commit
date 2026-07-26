@@ -14,3 +14,4 @@
 - 2026-07-24 16:44 UTC: chore: upgrade viem to latest version
 - 2026-07-25 09:01 UTC: Add snippet for connecting to Base RPC
 - 2026-07-25 15:59 UTC: Log: reviewed Encode Club bootcamp slides
+- 2026-07-26 09:02 UTC: Add helper function for typed data signing
