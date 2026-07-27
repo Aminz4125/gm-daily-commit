@@ -17,3 +17,4 @@
 - 2026-07-26 09:02 UTC: Add helper function for typed data signing
 - 2026-07-26 16:24 UTC: fix: off-by-one in nonce counter
 - 2026-07-27 10:13 UTC: Compare gas costs across L2 rollups
+- 2026-07-27 17:39 UTC: wip: draft script for stablecoin swap
