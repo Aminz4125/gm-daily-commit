@@ -19,3 +19,4 @@
 - 2026-07-27 10:13 UTC: Compare gas costs across L2 rollups
 - 2026-07-27 17:39 UTC: wip: draft script for stablecoin swap
 - 2026-07-28 09:07 UTC: Update .gitignore for build artifacts
+- 2026-07-28 17:00 UTC: Prototype interaction script for o1.exchange
