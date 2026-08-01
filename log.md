@@ -26,3 +26,4 @@
 - 2026-07-30 16:58 UTC: fix: wrong chain ID in test config
 - 2026-07-31 09:40 UTC: Log: brainstorm content ideas for X posts
 - 2026-07-31 17:44 UTC: Add notes on verifying contracts on Basescan
+- 2026-08-01 07:59 UTC: chore: remove dead code paths
