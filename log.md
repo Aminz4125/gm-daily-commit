@@ -30,3 +30,4 @@
 - 2026-08-01 16:46 UTC: Draft script to check token balances
 - 2026-08-02 08:36 UTC: Update research on ambassador programs
 - 2026-08-02 17:00 UTC: fix: missing .env variable check
+- 2026-08-03 09:27 UTC: Notes comparing Base and Arbitrum fees
