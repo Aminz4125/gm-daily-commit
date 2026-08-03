@@ -32,3 +32,4 @@
 - 2026-08-02 17:00 UTC: fix: missing .env variable check
 - 2026-08-03 09:27 UTC: Notes comparing Base and Arbitrum fees
 - 2026-08-03 13:49 UTC: wip: testing paymaster configuration
+- 2026-08-03 17:35 UTC: Short writeup on ERC-20 approval flow
