@@ -36,3 +36,4 @@
 - 2026-08-04 08:22 UTC: Log: reviewed Irys ambassador content plan
 - 2026-08-04 17:23 UTC: fix: local dev build failure
 - 2026-08-05 08:49 UTC: Add notes on Base Discord role sync
+- 2026-08-05 17:37 UTC: refactor: move config into separate module
