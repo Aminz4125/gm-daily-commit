@@ -39,3 +39,4 @@
 - 2026-08-05 17:37 UTC: refactor: move config into separate module
 - 2026-08-06 08:21 UTC: Draft notes for next Shorts video script
 - 2026-08-07 07:26 UTC: Update setup instructions in README
+- 2026-08-07 16:06 UTC: fix: decimal precision bug in transfer
