@@ -44,3 +44,4 @@
 - 2026-08-08 16:19 UTC: wip: deploy test to Base Sepolia
 - 2026-08-08 20:31 UTC: Log: planning next week's posting schedule
 - 2026-08-09 06:43 UTC: Short notes on account abstraction basics
+- 2026-08-09 16:34 UTC: fix: missing await in async call
