@@ -52,3 +52,4 @@
 - 2026-08-12 07:42 UTC: Log: wrapped up weekly research summary
 - 2026-08-12 16:08 UTC: Add draft notes on smart contract audits
 - 2026-08-13 07:19 UTC: fix: incorrect event listener cleanup
+- 2026-08-13 17:11 UTC: Update comparison of L2 bridging options
