@@ -53,3 +53,4 @@
 - 2026-08-12 16:08 UTC: Add draft notes on smart contract audits
 - 2026-08-13 07:19 UTC: fix: incorrect event listener cleanup
 - 2026-08-13 17:11 UTC: Update comparison of L2 bridging options
+- 2026-08-14 07:30 UTC: wip: testing multi-call batching
