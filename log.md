@@ -57,3 +57,4 @@
 - 2026-08-14 15:46 UTC: Short notes on gas optimization tricks
 - 2026-08-15 06:19 UTC: Log: reviewed viem docs for actions API
 - 2026-08-15 15:58 UTC: Add notes on wallet UX best practices
+- 2026-08-16 07:19 UTC: fix: race condition in async fetch
