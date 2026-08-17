@@ -60,3 +60,4 @@
 - 2026-08-16 07:19 UTC: fix: race condition in async fetch
 - 2026-08-16 16:06 UTC: Draft notes on token vesting schedules
 - 2026-08-17 07:47 UTC: Update research on DeFi grant programs
+- 2026-08-17 16:35 UTC: chore: tidy up project structure
