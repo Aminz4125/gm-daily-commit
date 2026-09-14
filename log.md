@@ -62,3 +62,4 @@
 - 2026-08-17 07:47 UTC: Update research on DeFi grant programs
 - 2026-08-17 16:35 UTC: chore: tidy up project structure
 - 2026-08-24 08:30 UTC: Log: recap of this month's Base activity
+- 2026-09-14 18:48 UTC: Add notes on onchain reputation systems
