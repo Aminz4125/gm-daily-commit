@@ -63,3 +63,4 @@
 - 2026-08-17 16:35 UTC: chore: tidy up project structure
 - 2026-08-24 08:30 UTC: Log: recap of this month's Base activity
 - 2026-09-14 18:48 UTC: Add viem client config for Base Sepolia
+- 2026-09-15 09:06 UTC: fix: handle insufficient balance error
